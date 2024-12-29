@@ -1,0 +1,57 @@
+#include <LiquidCrystal.h>
+
+// Define DHT sensor pin and type
+#define DHTPIN 2         // Pin connected to DHT sensor
+#define DHTTYPE DHT11    // DHT 11 sensor (change to DHT22 if needed)
+
+
+// LCD setup
+LiquidCrystal lcd(12, 11, 5, 4, 3, 2);  // RS, EN, D4, D5, D6, D7
+
+void setup() {
+  // Start serial communication
+  Serial.begin(9600);
+  
+  // Initialize DHT sensor
+
+  
+  // Initialize LCD
+  lcd.begin(16, 2);
+  lcd.print("Temp & Humidity");
+}
+
+void loop() {
+  // Wait a few seconds between measurements
+  delay(2000);
+  
+  // Read temperature and humidity from DHT sensor
+ 
+  
+  // Check if the readings are valid
+{
+    Serial.println("Failed to read from DHT sensor");
+    lcd.clear();
+    lcd.print("Sensor Error");
+    return;
+  }
+  
+  // Display temperature and humidity on the serial monitor
+  Serial.print("Humidity: ");
+
+  Serial.print("%  ");
+  Serial.print("Temperature: ");
+  
+  Serial.println("C");
+  
+  // Display temperature and humidity on LCD
+  lcd.clear();
+  lcd.setCursor(0, 0);
+  lcd.print("Humidity: ");
+ 
+  lcd.print("%");
+  lcd.setCursor(0, 1);
+  lcd.print("Temp: ");
+  lcd.print("C");
+}
+
+
