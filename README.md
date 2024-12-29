@@ -10,7 +10,7 @@
 
 
 ### Project: TEMPERATURE AND HUMIDITY MONITORING WITH DHT SENSOR
-![image alt]()
+![image alt](https://raw.githubusercontent.com/pavankum123/codetech-task2/b9e56dd9e826b5b66d24818246db41beffbd19bf/WhatsApp%20Image%202024-12-29%20at%2016.04.48_79b7b4bc.jpg)
 
 ### Objective
 The objective of a Temperature and Humidity Monitoring System using a DHT sensor is to measure and display the environmental temperature and humidity levels. This can be used for various applications, such as in weather stations, HVAC (Heating, Ventilation, and Air Conditioning) systems, agriculture (to monitor greenhouse conditions), and other smart home or industrial systems.
