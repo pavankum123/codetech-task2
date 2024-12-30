@@ -1,5 +1,5 @@
 **NAME**: P.PAVAN KUMAR
-**Comopany**: CODETECH IT SOLUTIONS
+**Company**: CODETECH IT SOLUTIONS
 **ID**: CT12WDDU
 **Domain**: EMBEDDED SYSTEMS
 **Duration**: December 9,2024 to March 29,2025
